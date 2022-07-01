@@ -39,18 +39,19 @@ android {
 
 dependencies {
 
-    implementation "androidx.core:core-ktx:$rootProject.coreKotlinExtensionVersion"
-    implementation "androidx.appcompat:appcompat:$rootProject.appCompactVersion"
-    implementation "com.google.android.material:material:$rootProject.materialVersion"
-    testImplementation "junit:junit:$rootProject.junitVersion"
-    androidTestImplementation "androidx.test.ext:junit:$rootProject.extJunitVersion"
-    androidTestImplementation "androidx.test.espresso:espresso-core:$rootProject.espressoVersion"
-    implementation "com.google.dagger:hilt-android:$rootProject.hiltVersion"
-    kapt "com.google.dagger:hilt-compiler:$rootProject.hiltVersion"
+    implementation "androidx.core:core-ktx:${versions.coreKotlinExtensionVersion}"
+    implementation "androidx.appcompat:appcompat:${versions.appCompactVersion}"
+    implementation "com.google.android.material:material:${versions.materialVersion}"
+    implementation "androidx.constraintlayout:constraintlayout:${versions.constrainsLayoutversion}"
+    testImplementation "junit:junit:${versions.junitVersion}"
+    androidTestImplementation "androidx.test.ext:junit:${versions.extJunitVersion}"
+    androidTestImplementation "androidx.test.espresso:espresso-core:${versions.espressoVersion}"
+    implementation "com.google.dagger:hilt-android:${versions.hiltVersion}"
+    kapt "com.google.dagger:hilt-compiler:${versions.hiltVersion}"
     // kotlin extension
-    implementation "androidx.activity:activity-ktx:$rootProject.activityKotlinExtensionVersion"
-    implementation "androidx.fragment:fragment-ktx:$rootProject.fragmentKotlinExtensionVersion"
+    implementation "androidx.activity:activity-ktx:${versions.activityKotlinExtensionVersion}"
+    implementation "androidx.fragment:fragment-ktx:${versions.fragmentKotlinExtensionVersion}"
     //coroutines
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$rootProject.coroutineVersion"
-    implementation "androidx.core:core-splashscreen:$rootProject.splashActivity"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:${versions.coroutineVersion}"
+    implementation "androidx.core:core-splashscreen:${versions.splashActivityVersion}"
 }

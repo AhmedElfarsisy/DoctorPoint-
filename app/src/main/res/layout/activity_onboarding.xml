@@ -14,7 +14,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:weightSum="20">
+        android:weightSum="20"
+        android:background="@color/white_bg">
 
         <androidx.viewpager.widget.ViewPager
             android:id="@+id/viewPager"

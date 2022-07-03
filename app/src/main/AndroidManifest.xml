@@ -25,6 +25,7 @@
         </activity>
         <activity
             android:name=".feature.onboarding.presentation.view.OnBoardingActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
 
     </application>

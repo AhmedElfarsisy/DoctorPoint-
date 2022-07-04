@@ -4,5 +4,5 @@ import androidx.lifecycle.ViewModel
 import dagger.hilt.android.scopes.ViewModelScoped
 
 @ViewModelScoped
-class DPBaseViewModel : ViewModel() {
+open class DPBaseViewModel : ViewModel() {
 }

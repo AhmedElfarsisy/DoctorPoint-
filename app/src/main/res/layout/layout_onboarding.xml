@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="mOnBoardingModel"
+            type="com.elfarsisy.doctorpoint.feature.onboarding.presentation.viewmodel.OnBoardingModel" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:resourceImage="@{mOnBoardingModel.iconId}"
+            android:scaleType="fitXY"
+            tools:src="@drawable/ic_onboarding1" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="@dimen/dp24w"
+            android:layout_marginVertical="@dimen/dp20h"
+            android:layout_weight="1"
+            android:elevation="8dp"
+            app:cardCornerRadius="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/onBoardingTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/dp30w"
+                    android:layout_marginTop="@dimen/dp40h"
+                    android:resourceText="@{mOnBoardingModel.title}"
+                    android:textAlignment="center"
+                    android:textColor="@color/dark_gray"
+                    android:textSize="@dimen/title_xxlarge"
+                    tools:text="Live talk with doctor" />
+
+                <TextView
+                    android:id="@+id/onBoardingDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/dp30w"
+                    android:layout_marginTop="@dimen/dp10h"
+                    android:resourceText="@{mOnBoardingModel.description}"
+                    android:textAlignment="center"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/text_normal"
+                    tools:text="@string/onboarding_message1" />
+
+                <Button
+                    style="@style/button_green"
+                    android:layout_marginHorizontal="@dimen/dp30w"
+                    android:layout_marginVertical="@dimen/dp20h"
+                    android:text="@string/get_started" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/dp30w"
+                    android:background="@color/white"
+                    android:padding="@dimen/dp10h"
+                    android:text="@string/skip_now"
+                    android:textAlignment="center"
+                    android:textColor="@color/gray" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+</layout>

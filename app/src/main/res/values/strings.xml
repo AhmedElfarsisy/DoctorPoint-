@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">DoctorPoint</string>
+    <string name="onboarding_title1">Thousands of doctors</string>
+    <string name="onboarding_title2">Live talk with doctor</string>
+    <string name="onboarding_title3">Chat with doctors</string>
+    <string name="onboarding_message1">Access thousands of Doctors instantly.You can easily contact with the doctors and contact for your needs.</string>
+    <string name="onboarding_message2">Easily connect with doctor and start video chat for your better treatment &amp; Prescription.</string>
+    <string name="onboarding_message3">Book an appointment with doctor. Chat with doctor via appointment letter. Get consultant.</string>
+    <string name="skip_now">skip now</string>
+    <string name="dynamic_id_binder">%s</string>
+    <string name="get_started">Get started</string>
 </resources>

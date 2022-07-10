@@ -9,4 +9,7 @@
     <string name="skip_now">skip now</string>
     <string name="dynamic_id_binder">%s</string>
     <string name="get_started">Get started</string>
+    <string name="create_an_account">create an account</string>
+    <string name="create_a_free_account">Create a free account</string>
+    <string name="sign_in">sign in</string>
 </resources>

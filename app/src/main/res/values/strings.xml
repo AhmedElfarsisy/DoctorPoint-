@@ -12,4 +12,13 @@
     <string name="create_an_account">create an account</string>
     <string name="create_a_free_account">Create a free account</string>
     <string name="sign_in">sign in</string>
+    <string name="email">Email</string>
+    <string name="email_icon">Email icon</string>
+    <string name="example_gmail_com">example@gmail.com</string>
+    <string name="password">password</string>
+    <string name="password_icon">password icon</string>
+    <string name="sign_in_btn_txt">Sign In</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="or_sign_in_with">Or Sign in with</string>
+    <string name="create_account">Create account</string>
 </resources>
